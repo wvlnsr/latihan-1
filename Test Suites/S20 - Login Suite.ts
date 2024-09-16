@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>S20 - Login Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>1b738ca8-e2a2-4617-a59d-33287c7d659b</testSuiteGuid>
+   <testCaseLink>
+      <guid>8bc3fd44-ff1c-47c9-b918-ee32d29041b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1. Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8e37a3b0-bb15-47a3-b77d-f63ad6421392</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/userData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8e37a3b0-bb15-47a3-b77d-f63ad6421392</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>a372cedb-5bb8-4eac-976d-ed18ffb2c1fc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8e37a3b0-bb15-47a3-b77d-f63ad6421392</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>e3314b90-bf38-41ec-b0f4-99c3e3a3a290</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8e37a3b0-bb15-47a3-b77d-f63ad6421392</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testType</value>
+         <variableId>9d82ecd4-4c32-4dfd-b89c-12358b95e601</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8e37a3b0-bb15-47a3-b77d-f63ad6421392</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedErrorMessage</value>
+         <variableId>412f002c-a42d-48a6-8633-8f424eab556b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>00feddb9-4a04-457c-8773-0490da15d1a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1. Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9d82ecd4-4c32-4dfd-b89c-12358b95e601</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a372cedb-5bb8-4eac-976d-ed18ffb2c1fc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e3314b90-bf38-41ec-b0f4-99c3e3a3a290</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>412f002c-a42d-48a6-8633-8f424eab556b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1fbad349-e7ec-4b69-8f6d-9d4da48480e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/2. Sort products based on price (low to high)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>91bf4228-807a-4d43-b29e-ec00915f2b91</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3. View product detail</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20497e41-018c-419c-ac01-e73bf8aec958</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4. Add multiple products</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a6e5e7a4-c528-4eca-87eb-f65fc1b807b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/5. Checkout until finished (E2E)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

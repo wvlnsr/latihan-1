@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5. Checkout until finished (E2E)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>902c58e5-9adc-43f0-ab94-e6ad08bf4aa0</testCaseGuid>
+</TestCaseEntity>
